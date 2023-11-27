@@ -1,0 +1,19 @@
+.product-card {
+	background-color: white;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	margin: 5rem 0 5rem 0;
+	text-align: center;
+	padding: 1rem 2rem;
+	position: relative;
+}
+
+.product-card .picture {
+	width: 20rem;
+	height: 20rem;
+	object-fit: cover;
+}
+
+.product-card .name {
+	font-weight: 600;
+	font-size: 1.75rem;
+}

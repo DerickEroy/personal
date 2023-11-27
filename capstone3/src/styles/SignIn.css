@@ -1,0 +1,28 @@
+/* Sign in */
+.sign-in-container {
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	gap: 1rem;
+	position: absolute;
+	top: 2rem;
+	right: 4rem;
+}
+
+.sign-in-container .main {
+	font-size: 0.9rem;
+}
+
+.sign-in-container p {
+	color: #707277;
+}
+
+.sign-in-container button {
+	gap: 0.5rem;
+	font-size: 1rem;
+}
+
+.link-style:hover {
+  text-decoration: none;
+}

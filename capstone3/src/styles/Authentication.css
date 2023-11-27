@@ -1,0 +1,154 @@
+.authentication .section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.authentication .container {
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	width: 35rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FFF;
+	margin: auto;
+	color: #424345;
+	border-radius: 1px;
+}
+
+.authentication .sub-container {
+	max-width: 100%;
+	padding: 3rem;
+}
+
+.authentication .sub-container h1 {
+	font-weight: 400;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.authentication .text {
+	font-weight: 300;
+	font-size: 1rem;
+	color: #8d9096;
+	text-align: center;
+}
+
+.authentication a {
+	color: #0094ff;
+}
+
+.authentication .forgot{
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.authentication a:hover {
+	filter: brightness(1.1);
+	text-decoration: underline;
+}
+
+.authentication form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 2rem 0;
+	width: 100%;
+}
+
+.authentication .fullName,
+.authentication .email,
+.authentication .phone,
+.authentication .password {
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+}
+
+.authentication .phone-text {
+	font-size: 0.8rem;
+	color: #8d9096;
+}
+
+.authentication .fullName input,
+.authentication .email input,
+.authentication .phone input,
+.authentication .password input {
+	min-height: 2rem;
+	font-size: 1rem;
+	margin-top: 0.75rem;
+	border: 1px solid #8d9096;
+	border-radius: 3px;
+	padding: 7px;
+}
+
+.authentication .fullName input:focus,
+.authentication .email input:focus,
+.authentication .phone input:focus,
+.authentication .password input:focus {
+	box-shadow: 0 0 10px 1px rgba(0, 148, 255, 0.3);
+	border: 1px solid #0094ff;
+	transition: 0.25s;
+}
+
+.authentication button {
+	background-color: #0077c5;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 300;
+	padding: 0.6rem 2rem;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*box-shadow: 0 2px rgba(0, 0, 0, 0.75);*/
+	gap: 1rem;
+}
+
+.authentication button:hover {
+	transition: 0.25s;
+	filter: brightness(1.1);
+}
+
+.authentication button img {
+	max-width: 1.25rem;
+}
+
+.authentication .captcha-text {
+	background-color: #eceef2;
+	font-weight: 300;
+	font-size: 0.8rem;
+	color: #707277;
+	text-align: center;
+	width: 100%;
+	padding: 1.5rem;
+}
+
+.authentication .logo {
+	display: flex;
+	max-width: 8rem;
+	margin: 1rem auto;
+}
+
+.authentication hr {
+	border-color: 1px solid #adb0b8;
+	margin: 1rem 0;
+}
+
+.authentication .remember-me {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-weight: 400;
+}
+
+.authentication .remember-me input {
+	width: 1rem;
+	height: 1rem;
+}

@@ -1,0 +1,59 @@
+.admin-dashboard {
+	padding: 10rem 12rem;
+}
+
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-dashboard th{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  color: white;
+  font-weight: 600;
+}
+
+.admin-dashboard td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-dashboard th {
+  background-color: #373a3c;
+}
+
+.admin-dashboard .general-actions {
+  display: flex;
+}
+
+.admin-dashboard .create-product {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #0077c5;
+  color: white;
+  border: none;
+}
+
+.admin-dashboard .edit {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #0077c5;
+  color: white;
+  border: none;
+}
+
+.admin-dashboard .delete {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #dd2424;
+  color: white;
+  border: none;
+}
+
+.admin-dashboard button:hover {
+  filter: brightness(1.1);
+}

@@ -1,0 +1,24 @@
+.appnavbar {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFF;
+	padding: 1rem 10rem;
+	width: 100%;
+}
+
+.appnavbar .sub-container {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.appnavbar .logo {
+	max-width: 5rem;
+}
+
+.appnavbar button {
+	background: none;
+	font-size: 1rem;
+}
